@@ -1,0 +1,13 @@
+
+name = "cf-auto-content"
+type = "javascript"
+
+account_id = "YOUR_ACCOUNT_ID"
+workers_dev = true
+compatibility_date = "2023-12-01"
+
+[[triggers]]
+crons = ["0 3 * * *"]
+
+[site]
+bucket = "./public"
